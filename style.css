@@ -6,8 +6,15 @@ body
     flex-direction: column;
 }
 
-
+.estremi
+{
+    display: flex;   
+    background-color: brown;
+    font-size: 10px;
+    height: 40px;
+}
  
+
 .intro
 {
     background-color: brown;
@@ -27,17 +34,19 @@ body
     justify-content: center;
     background-color:bisque;
     flex: 1 2 1;
+    height: 250px;
 }
 
 .item{
+    text-align: center;
+    flex:1;
     align-items: center;
-    border-style: solid;
-    border-color:brown;
-    background-color: aqua;
+    background-color: brown;
 }
 
 .content
 {
+
     justify-content: center;
     gap: 2rem;
     display: flex;
