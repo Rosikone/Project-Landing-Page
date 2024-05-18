@@ -6,6 +6,10 @@ body
     flex-direction: column;
 }
 
+*
+{
+    box-sizing: border-box;
+}
 
 
 
@@ -14,20 +18,27 @@ body
     display: flex;  
     flex-direction: row; 
     background-color: #1f2937;
-    font-size: 10px;
-    height: 60px;
     justify-content: center;
     align-items: center;
 }
- 
+
 .Logo
 {
-    width: 40px;
+    width: 100px;
 }
 
+.secondary_text
+{
+    font-size:18px;
+}
 
+.primary_text
+{
+    font-size:36px;
+}
 .intro
 {
+    text-align: center;
     color:aliceblue;
     background-color: #1f2937; /*#8C2A14*/
     display: flex;
@@ -45,8 +56,6 @@ body
     flex-direction: column;
     justify-content: center;
     flex: 1 2 1;
-    height: 250px;
-     /*#BF8450*/
 }
 
 .login
@@ -63,6 +72,7 @@ body
 
 .log
 {
+    border-radius: 5px;
     color:#fff;
     display: flex;
     justify-content: center;
@@ -77,22 +87,24 @@ body
 {
     height: 30px;
     color:#fff;
-    border-style: ridge;
-    border-color: #fff;
+    border:2px solid #fff;
+    border-radius: 5px;
     background-color: #3882f6;
 }
 
 .prova{
+    font-size: 24px;
+    font:bolder;
     gap: 2px;
     justify-content: center;
     flex:1;
     display: flex;
-    color:white;
-    font-size: auto;
+    color: #f9faf8;
 }
 
 a:link
 {
+    font-size: 18px;;
     text-decoration: underline;
     color: #E2E7EB;
 }
@@ -116,9 +128,9 @@ a:link
 .quota{
     color: #1f2937;
     font-size: 36px;
-    font-family: italic;
+    font-style: italic;
     text-align: center;
-    flex:1;
+    display: block;
     align-items: center;
     background-color: #E2E7EB; /*BF4904*/
 }
@@ -126,7 +138,8 @@ a:link
 .imaggine
 {
     background-color: white;
-    border-style: ridge;
+    border-style: solid;
+    border-radius: 5px;
     border-color: #3882f6;
     width: 85px;
 }
