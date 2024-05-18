@@ -7,11 +7,13 @@ body
 }
 
 
+
+
 .estremi
 {
     display: flex;  
     flex-direction: row; 
-    background-color: orange;
+    background-color: #1f2937;
     font-size: 10px;
     height: 60px;
     justify-content: center;
@@ -27,7 +29,7 @@ body
 .intro
 {
     color:aliceblue;
-    background-color: #591F0A; /*#8C2A14*/
+    background-color: #1f2937; /*#8C2A14*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -44,7 +46,40 @@ body
     justify-content: center;
     flex: 1 2 1;
     height: 250px;
-    background-color: #BF8450;  /*#BF8450*/
+     /*#BF8450*/
+}
+
+.login
+{
+    border-style:unset;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1 2 1;
+    height: 250px;
+}
+
+.log
+{
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 90px;
+    gap: 10px;
+    background-color: #3882f6;
+}
+
+.buttom
+{
+    height: 30px;
+    color:#fff;
+    border-style: ridge;
+    border-color: #fff;
+    background-color: #3882f6;
 }
 
 .prova{
@@ -56,11 +91,16 @@ body
     font-size: auto;
 }
 
+a:link
+{
+    text-decoration: underline;
+    color: #E2E7EB;
+}
+
 .item{
-    
     font-size: medium;
     flex:1;
-
+    color:white;
     flex-direction: row;
     justify-content: center;
 }
@@ -74,16 +114,19 @@ body
 }
 
 .quota{
+    color: #1f2937;
+    font-size: 36px;
+    font-family: italic;
     text-align: center;
     flex:1;
     align-items: center;
-    background-color: #BF4904; /*BF4904*/
+    background-color: #E2E7EB; /*BF4904*/
 }
 
 .imaggine
 {
     background-color: white;
     border-style: ridge;
-    border-color: #101E26;
+    border-color: #3882f6;
     width: 85px;
 }
