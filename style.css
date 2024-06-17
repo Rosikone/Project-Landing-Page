@@ -42,7 +42,7 @@ body
     flex-direction: row;
     gap: 2rem;
     padding-bottom: 30px;
-    color: #fff;
+    color: #ffff;
     flex: 1;
     justify-content: center;
 }
@@ -69,6 +69,7 @@ body
 
 .img_int
 {
+    width: 300px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
