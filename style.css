@@ -67,7 +67,7 @@ body
     justify-content: center;
 }
 
-.img_intro
+.img_int
 {
     display: flex;
     flex-direction: row;
