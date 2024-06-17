@@ -11,6 +11,15 @@ body
     box-sizing: border-box;
 }
 
+.secondary_text
+{
+    font-size:18px;
+}
+
+.primary_text
+{
+    font-size:36px;
+}
 
 
 .estremi
@@ -27,15 +36,17 @@ body
     width: 100px;
 }
 
-.secondary_text
+.link
 {
-    font-size:18px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-bottom: 30px;
+    color: #fff;
+    flex: 1;
+    justify-content: center;
 }
 
-.primary_text
-{
-    font-size:36px;
-}
 .intro
 {
     text-align: center;
@@ -43,10 +54,28 @@ body
     background-color: #1f2937; /*#8C2A14*/
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex: 1 1 2;
     gap: 2rem;
     height: 250px;
+}
+
+.item{
+    flex: 1;
+    padding-bottom: 30px;
+    color: #fff;
+    flex: 1;
+    justify-content: center;
+}
+
+.img_intro
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #3882f6;
+
 }
 
 .info
@@ -60,23 +89,26 @@ body
 
 .login
 {
+    display: flex;
     border-style:unset;
     gap: 1rem;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     flex: 1 2 1;
     height: 250px;
+    align-items: center;
+    justify-content: center;
 }
 
 .log
-{
-    border-radius: 5px;
-    color:#fff;
+{ 
+    text-align: center;
     display: flex;
+    flex-direction: row;
+    flex: 1 1 2;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+    color:#fff;
     width: 650px;
     height: 90px;
     gap: 10px;
@@ -85,6 +117,10 @@ body
 
 .buttom
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 30px;
     color:#fff;
     border:2px solid #fff;
@@ -109,16 +145,10 @@ a:link
     color: #E2E7EB;
 }
 
-.item{
-    font-size: medium;
-    flex:1;
-    color:white;
-    flex-direction: row;
-    justify-content: center;
-}
 
 .content
 {
+    text-align: center;
     justify-content: center;
     gap: 2rem;
     display: flex;
@@ -142,4 +172,5 @@ a:link
     border-radius: 5px;
     border-color: #3882f6;
     width: 85px;
+    height: 135px;
 }
